@@ -24,7 +24,7 @@ submitButton.addEventListener("click", function () {
         emailField.value = "";
         messageField.value = "";
 
-        emailjs.send("service_test", "template_50745dq", templateParams, "GsReDqNw7HZqhJS2Q");
+        emailjs.send("service_ggtqrwk", "template_50745dq", templateParams, "GsReDqNw7HZqhJS2Q");
 
         console.log(nameValue, emailVlaue, messageValue)
     }
